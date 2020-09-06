@@ -1,0 +1,85 @@
+* { 
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, p, a {
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    background-image: url('https://sun9-45.userapi.com/c206728/v206728269/176439/QuPp579veJ8.jpg');
+    background-size: cover;
+}
+
+.header {
+    height: 100vh;
+    background-color: #eee;
+    background-image: url('https://sun9-5.userapi.com/c206728/v206728269/17644d/LQx26T41fa0.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.header-title {
+    font-size: 140px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin:auto;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    display:flex;
+}
+
+.content {
+    font-size: 0;
+    width: 800px;
+    margin:100px auto 50px;
+}
+
+.card {
+    width: 350px;
+    margin-bottom: 60px;
+    padding: 40px 40px;
+    display: inline-block;
+    margin-right:90px;
+    box-shadow: 2px 2px 2px 2px rgba(250, 50, 50, .7);
+    color: white;
+    background-color: rgba(250, 50, 50, .5);
+    height: 700px;
+}
+.no-right-margin{
+    margin-right: 0;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 16px;
+}
+.card-image {
+    width: 100%;
+    margin-bottom: 25px;
+}
+.footer {
+    background-color:black;
+    height:300px;
+    display: flex;
+}
+
+.footer-author {
+    color: white;
+    font-size:24px;
+    margin: auto;
+}
